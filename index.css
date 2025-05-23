@@ -36,15 +36,6 @@ nav {
   margin-top: 10px;
 }
 
-nav a {
-  color: #9ca3af;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #ffffff;
-}
 
 section {
   margin: 40px 0;
@@ -77,14 +68,15 @@ ul li {
   padding: 20px;
   border-left: 4px solid #2563eb;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border-left: 4px solid #2563eb;
+  box-shadow: 0 4px 6px ;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .projeto {
   background-color: white;
   padding: 20px;
-  border-left: 4px solid #2563eb;
+  border-left: 4px solid #7c0ec5;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   transition: transform 0.2s;
@@ -115,15 +107,15 @@ nav a::after {
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: #3b82f6; /* azul elegante */
-  transition: width 0.3s ease;
+  background-color: #7c0ec5; /* azul elegante */
+  transition: width 0.9s ease;
 }
 a {
   text-decoration: none;
 }
 
 nav a:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
   color: #000000;
 }
 
